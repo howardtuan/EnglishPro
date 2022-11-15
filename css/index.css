@@ -1,0 +1,92 @@
+.index_banner {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: #ccc;
+	background: linear-gradient(135deg, rgb(218, 217, 217) 50%,
+			transparent 50%)center center / 100% 100%,
+		url("../img/englishexam.jpeg")right center/ auto 100%
+}
+
+.index_container {
+	width: 1200px;
+	height: 100%;
+	margin: auto;
+}
+
+.index_banner-txt {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.index_banner-txt h1 {
+	font-size: 80px;
+	border-bottom: 1px solid #333;
+}
+
+.index_banner-txt h1 small {
+	display: block;
+	font-size: 53px;
+}
+
+.index_banner-txt p {
+	font-size: 24px;
+}
+
+.index_banner-txt a {
+	display: none;
+	text-decoration: none;
+	color: #000;
+}
+/*導覽列*/
+#navtop{
+    position: fixed;
+	width: 100%;
+}
+/*首頁的開始按鈕*/
+.word_intro {
+	width: 160px;
+	height: 55px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    background-color: #fff;
+	color: #000;
+	border: 2px solid #fff;
+}
+
+.a_word_intro :hover {
+	background-color: #000;
+	color: #fff;
+    border: 2px solid #000;
+	transition: .5s;
+}
+
+.word_p_index {
+    font-size: 15px;
+	text-align: center;
+	font-weight: bolder;
+    padding-top: 15px;
+
+}
+@media only screen and (max-width: 1000px) {
+    .index_banner {
+        background: rgb(218, 217, 217)
+    }
+    .index_container {
+        width: auto;
+        margin: auto;
+    }
+    .index_banner-txt {
+        width: 300px;
+        margin: auto;
+    }
+    .word_intro {
+        top: 80%;
+    } 
+} 
