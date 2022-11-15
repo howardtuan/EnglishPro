@@ -1,0 +1,34 @@
+/* 正確題目css */
+.quiz-block-bingo{
+    width: 60%;
+    height: auto;
+    background-color: rgb(161, 211, 229);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+.quiz-block-bingo p{
+    font-size: 20px;
+}
+/* 錯誤題目css */
+.quiz-block-error{
+    width: 60%;
+    height: auto;
+    background-color: rgb(255, 134, 134);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+.quiz-block-error p{
+    font-size: 20px;
+}
+.quiz{
+    padding-bottom: 15px;
+}
+.submit-btn{
+    margin-top: 10px;
+}
