@@ -1,5 +1,7 @@
 .all_bgcolor{
-    background-color: rgb(218, 217, 217);
+    background-color: rgba(0, 0, 0, 0.796);
+    /*  rgba(0, 0, 0, 0.796) */
+    /* rgb(218, 217, 217) */
 }
 /*導覽列*/
 #navtop{

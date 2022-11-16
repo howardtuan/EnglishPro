@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/blank.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
@@ -14,8 +14,8 @@
     
     <title>Document</title>
 </head>
-<body class="all_bgcolor">
-  <header class="p-3 text-bg-dark" id="navtop">
+<body class="all_bgcolor login_body">
+  <header class="p-3 text-bg-dark">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
@@ -23,7 +23,7 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="index.html" class="nav-link px-2 text-warning ">EnglishPro</a></li>
+          <li><a href="index.html" class="nav-link px-2 text-warning">EnglishPro</a></li>
           <li><a href="#" class="nav-link px-2 text-white">Quiz</a></li>
           <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
           <li><a href="#" class="nav-link px-2 text-white">About</a></li>
@@ -53,26 +53,34 @@
       </div>
     </div>
   </header>
-  <div class="index_banner">
-    <div class="index_container">
-      <div class="index_banner-txt">
-        <h1>
-          EnglishPro
-        </h1>
-        <p>專門為國中生設計的會考英文刷題系統
-          <br>
-          海量歷屆試題及模擬試題
-        </p>
-      </div>
-    </div>
+  <section class="topset login_fakebody">
+  <div class="login_in">
+
+    <form action="" class="form">
+        <h2>會員登入</h2>
+        <div class="group">
+            <label for="user_id">帳號</label>
+            <input type="text" name="" id="user_id" class="id2">
+        </div>
+        <div class="group">
+            <label for="login_password">密碼</label>
+            <input type="password" name="" id="login_password" class="id2">
+        </div>
+        <div class="btn-group">
+            <input type="submit" name="" value="登入" class="btn_in" onclick="login()">
+            <input type="button" name="" value="取消" class="btn_in" onclick="location.href='index.html'">
+             <!--
+                button寫法如下
+                <button class="btn_in">登入</button>
+            -->
+        </div>
+        <div class="group GoSignUp_OR_GoLogin">
+            還沒註冊帳號嗎？<a href="signup.html">點我註冊</a> 
+        </div>
+    </form>
+    
   </div>
-  <a href="#" class="a_word_intro">
-    <div class="word_intro">
-        <p class="word_p_index">LET'S START</p>
-
-    </div>
-</a>
-
+  </section>
 
 
 </body>

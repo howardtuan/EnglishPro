@@ -1,0 +1,135 @@
+.loginform{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+/*會員登入表單*/
+
+.signup .form,
+.login_in .form {
+	width: 400px;
+	color: white;
+}
+
+.signup .form h2,
+.login_in .form h2 {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+
+.signup .form .group .login_in .form .group {
+	margin-bottom: 20px;
+}
+
+.signup .form .GoSignUp_OR_GoLogin,
+.login_in .form .GoSignUp_OR_GoLogin {
+	padding-top: 10px;
+	border-top: 1px solid #fff;
+	margin-top: 20px;
+
+}
+
+
+.signup .form .GoSignUp_OR_GoLogin a:link,
+.login_in .form .GoSignUp_OR_GoLogin a:link {
+	text-decoration: none;
+	color: rgb(56, 163, 179);
+}
+
+.signup .form .GoSignUp_OR_GoLogin a:visited,
+.login_in .form .GoSignUp_OR_GoLogin a:visited {
+	text-decoration: none;
+	color: rgb(56, 163, 179);
+}
+
+.signup .form .GoSignUp_OR_GoLogin a:hover,
+.login_in .form .GoSignUp_OR_GoLogin a:hover {
+	text-decoration: underline;
+	color: rgb(56, 163, 179);
+}
+
+.signup .form label,
+.login_in .form label {
+	line-height: 2;
+}
+
+.signup .form .id2,
+.login_in .form .id2 {
+	width: 100%;
+	border: 1px solid #aaa;
+	line-height: 2;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.signup .form .btn-group,
+.login_in .form .btn-group {
+	font-size: 0;
+	margin-top: 50px;
+}
+
+.signup .form .btn_in,
+.login_in .form .btn_in {
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #acaca9;
+	width: 190px;
+	padding: 10px 0;
+	color: #fff;
+	cursor: pointer;
+}
+
+.signup .form .btn_in:hover,
+.login_in .form .btn_in:hover {
+	background-color: #878785;
+}
+
+.signup .form .btn_in+.btn_in,
+.login_in .form .btn_in+.btn_in {
+	margin-left: 20px;
+}
+
+.login_body {
+	background-image: url(../img/login.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.login_fakebody {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login_in {
+	margin-top: 5%;
+	width: 600px;
+	height: 500px;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 10px;
+	border: 10px solid #fff;
+	box-shadow: 0 0 60px #000;
+	backdrop-filter: blur(5px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*會員註冊*/
+.signup {
+	margin-top: 5%;
+	width: 600px;
+	height: 600px;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 10px;
+	border: 10px solid #fff;
+	box-shadow: 0 0 60px #000;
+	backdrop-filter: blur(5px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
