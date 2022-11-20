@@ -32,3 +32,31 @@
 .submit-btn{
     margin-top: 10px;
 }
+/*Result 成績結算*/
+.socre-block{
+    width: 60%;
+    height: auto;
+    background-color: rgb(255,193,48);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+/*歷史紀錄 最上層*/
+.his-block{
+    width: 60%;
+    height: auto;
+    background-color: rgb(255,193,48);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+.histitle{
+    margin-top: auto;
+    margin-bottom: auto;
+}
